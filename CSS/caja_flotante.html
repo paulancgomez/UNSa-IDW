@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Cajas Flexibles</title>
+    <style>
+        body{
+            font-family: Helvetica, sans-serif;
+        }
+        #cajapadre{
+            display:flex;
+            flex-direction: row-reverse;
+        }
+        #cajapadre > div{
+            height: 145px;
+            margin: 5px;
+        }
+        #caja-1{
+            flex: 1;
+            background-color: #d664d9;
+        }
+        #caja-2{
+            flex: 1;
+            background-color: #5461f0;
+        }
+        #caja-3{
+            flex: 1;
+            background-color: #73d9cd;
+        }
+        #caja-4{
+            flex: 1;
+            background-color: #6eff3a;
+        }
+    </style>
+</head>
+<body>
+    <section id="cajapadre">
+        <div id="caja-1">Caja 1</div>
+        <div id="caja-2">Caja 2</div>
+        <div id="caja-3">Caja 3</div>
+        <div id="caja-4">Caja 4</div>
+    </section>
+</body>
+</html>

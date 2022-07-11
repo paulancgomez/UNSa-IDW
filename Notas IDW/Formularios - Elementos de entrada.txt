@@ -1,0 +1,139 @@
+2 ATRIBUTOS  MAS IMPORTANTES EN EL FORMULARIO
+
+action: indicar a donde se van a mandar los datos que se ingresaron en el formulario.
+method: en que forma o como se van a mandar los datos (archivo.php).
+
+--------------------------------------------------------------------------------
+Formularios - Definir
+
+● DONDE se mandan los datos
+● COMO se mandan los datos
+
+<form action="/donde" method="como">
+
+</form>
+
+---------------------------------------------------------------------------------
+Formularios - Elementos de entrada
+
+● Campo de texto
+● Casilla de verificación (Checkbox)
+● Botón de radio (radiobutton)
+● Cuadro de selección (select)
+● Botón de enviar (submit)
+● Botón de reinicio (Reset)
+● Selección de archivo (upload)
+● Campo de contraseña
+● etc.
+● etc (HTML5).
+
+-------------------------------------------------------------------------------
+Formularios - Texto
+
+<form action="" method="post">
+
+	<input type="text"/>
+
+	<textarea></textarea>
+
+</form>
+
+------------------------------------------------------------------------------
+Formularios - Texto
+
+<form action="" method="post">
+
+	<label>Tu Nombre</label> <br/>
+	<input type="text"/> <br>
+
+	<label>Mensaje</label> <br/>
+	<textarea></textarea>
+
+</form>
+
+----------------------------------------------------------------------------
+Formularios - Select
+
+<form action="" method="post">
+	<label>Tu equipo favorito:</label> <br/>
+	<select>
+		<option>River</option>
+		<option>Boca Juniors</option>
+		<option>Tigre</option>
+		<option>Belgrano</option>
+		<option>Flamengo</option>
+	</select>
+</form
+
+-------------------------------------------------------------------------
+Formularios - Checkbox (casillas de verificacion)
+
+<form action="" method="post">
+
+	<label>Equipos que descendieron:</label> <br/>
+	<input type="checkbox"> Boca<br>
+	<input type="checkbox"> San Lorenzo<br>
+	<input type="checkbox"> Racing<br>
+	<input type="checkbox"> Independiente<br>
+	<input type="checkbox"> Riber<br>
+
+</form
+
+-------------------------------------------------------------------------
+Formularios - Radio (elegimos solo una opcion)
+
+<form action="" method="post">
+
+	<label>Categoría:</label> <br/>
+	<input type="radio">Grande
+	<input type="radio">Chico
+
+</form
+
+-------------------------------------------------------------------------
+Formularios - File (para que el usuario suba un archivo de PC)
+
+<form action="" method="post" enctype="multipart/form-data>
+
+	<label>Suba el escudo de su equipo:</label> <br/>
+	<input type="file">
+
+</form>
+
+-Etiqueta: forms
+-Encype con el valor multipart/form-data
+
+Cuando vamos a trabajar con archivos: subir un archivo al servidor. Se necesita dsponer de ese atributo en el formulario sino no nos va a dejar trabajar. 
+
+------------------------------------------------------------------------------
+Formularios - Botones
+
+<form action="" method="post">
+
+	<input type="submit">
+	<input type="reset">
+
+</form>
+
+-En action voy a poner en que archivo voy a mandar a traves del boton Enviar a un archivo.php por ejemplo.
+-------------------------------------------------------------------------------
+Formularios - Oculto
+
+<form action="" method="post">
+
+	<input type="hidden" value="3.1416">
+
+</form>
+
+-Por si nosotros necesitamos mandar informacion que va junto con la informacion que cargue del formulario hacia ese lugar que se procesa (archivo.php) y esa informacion no la carga el usuario sino que la mandamos nosotros porque la necesitamos, utilizamos el campo: input type = "hidden" y le paso el atributo value el valor que quiero pasar oculto sin que el usuario lo vea.
+------------------------------------------------------------------------------
+Formularios - Password
+
+<form action="" method="post">
+
+	<label>Contraseña:</label> <br/>
+	<input type="password">
+
+</form>
+
+----------------------------------------------------------------------------------

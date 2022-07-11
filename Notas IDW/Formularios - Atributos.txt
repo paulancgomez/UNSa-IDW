@@ -1,0 +1,89 @@
+Formularios - Atributos
+NO TIENE QUE VER CON EL ESTILO
+
+ ● id: sirve para identificar un elemento en un formulario. El id no se debe repetir en ninguno de los elementos, el id es unico.
+
+ ● name: sirve para identificar un elemento en un formulario.
+
+ ● value: sirve para asignarle un valor a uno de los elementos.
+
+ ● checked: si queremos que alguna opcion aparezca seleccionada por defecto.
+
+ ● size: tamaño de un control, de un elemento.
+
+ ● maxlength: longitud maxima de un texto.
+
+ ● readonly: para que el usuario no pueda modificar el valor, que sea de solo lectura.
+
+  ●disable=”disabled”: va a aparecer deshabilitado, no me va a permitir modificar, el elemento aparece como apagado.
+
+------------------------------------------------------------------------------
+Formularios - Texto
+
+<form action="" method="post">
+
+	<input type="text" id="nombre" name="nombre" value="" />
+
+	<textarea id="mensaje" name="mensaje" cols="40" rows="5"></textarea>
+
+</form>
+
+-------------------------------------------------------------------------
+Formularios - Select
+
+<form action="" method="post">
+	<label for="equipo">Tu equipo favorito:</label> <br/>
+	<select id="equipo" name="equipo">
+		<option value="1">Boca Juniors</option>
+		<option value="2">Tigre</option>
+		<option value="3">Belgrano</option>
+		<option value="4">Flamengo</option>
+		<option value="5">Riber</option>
+	</select>
+</form
+
+-for="equipo": (Etiqueta for) Le damos el valor del nombre del elemento al que hace referencia esa etiqueta.
+-value="1": Agregue los atributos value y les di disitntos valores a cada una de las opciones.
+
+-----------------------------------------------------------------------------
+Formularios - Checkbox
+
+<form action="" method="post">
+
+	<label for="equipo">Equipos que descendieron:</label> <br/>
+	<input type="checkbox" name="e1"> Boca<br>
+	<input type="checkbox" name="e2"> Riber<br>
+	<input type="checkbox" name="e3"> Racing<br>
+	<input type="checkbox" name="e4"> Independiente<br>
+	<input type="checkbox" name="e5"> San Lorenzo<br>
+
+</form
+
+-El name de los chekbox pueden ser distintos. Yo voy a preguntar si el e1 fue seleccionado o no.
+
+----------------------------------------------------------------------------
+Formularios - Radio
+
+<form action="" method="post" enctype="multipart/form-data >
+
+	<label for="categoria">Categoría:</label> <br/>
+	<input type="radio" name="categoria">Grande
+	<input type="radio" name="categoria">Chico
+
+</form
+
+-El name es el mismo y yo voy a decir que opcion tiene seleccionada en elemento categoria.
+
+----------------------------------------------------------------------------------
+Formularios - File
+
+<form action="" method="post" enctype="multipart/form-data>
+
+	<label for="archivo">Suba el escudo de su equipo:</label> <br/>
+	<input type="file" id="escudo" name="escudo">
+
+</form>
+
+-Le agrego el id y name por si el usuario quiera cargar un archivo y nosotros necesitemos hacer referencia a el por su id o name.
+
+----------------------------------------------------------------------------------

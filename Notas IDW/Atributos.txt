@@ -1,0 +1,93 @@
+HTML - Atributos
+
+Lista de los atributos más usados en HTML
+
+● Id =” ”: Para identificar un elemento único.
+● class =” ”: Identificador múltiple.
+● align =” ”: Alineación de contenido.
+● border =” ”: Para darle borde al contenido.
+● style =” ”: Para darle un estilo al contenido.
+● background-color =” ”: Para color de fondo.
+● href =” ”: Para enlaces html.
+● height =” ”: Para determinar altura.
+● width =” ”: Para determinar ancho.
+● src=“ ”: Para imágenes.
+
+-------------------------------------------------------------------------------
+HTML - Atributos
+
+Colocar los atributos en HTML
+Un atributo se escribe de la siguiente manera:
+Atributo=“valor”
+Todo esto siempre dentro de la etiqueta de apertura.
+Por lo tanto el atributo escrito en una etiqueta (por ejemplo
+párrafo) se ve así:
+<p atributo="valor">Este es un párrafo</p>
+
+-------------------------------------------------------------------------------
+HTML - Atributos
+
+Colocar los atributos en HTML
+
+Cuando se hace uso de un atributo HTML se debe especificar su valor, este
+puede representar una cantidad exacta, característica específica o simplemente
+en qué medida se ejecutará dicho atributo.
+El valor se expresa entre comillas después del signo de (=), de acuerdo al
+atributo, pueden haber una variedad de valores disponibles. Por ejemplo, en caso
+de align puede tomar el valor de center (centro), right (derecha), left
+(izquierda), justify (justificado).
+
+-----------------------------------------------------------------------------
+HTML - Atributos
+
+Colocar los atributos en HTML
+
+<p align="center">Este es un párrafo alineado al centro</p>
+<p align="right">Este es un párrafo alineado a la derecha</p>
+<p align="left">Este es un párrafo alineado a la izquierda</p>
+
+-----------------------------------------------------------------------------
+HTML - Atributos
+
+Hipervínculo en HTML
+
+Para definir enlaces o hipervínculos utilizaremos la etiqueta
+<a> de la siguiente manera:
+
+<a> texto del enlace</a>
+
+------------------------------------------------------------------------------
+HTML - Atributos
+
+Atributo href para enlaces HTML
+
+Para indicar la dirección destino del enlace utilizaremos el atributo href, En todo
+caso quedaría de la siguiente manera.
+<a href="URL"> texto ancla </a>
+● El atributo href contiene el valor de la url de destino, es decir, el link o
+dirección web.
+● El texto ancla es el texto visible, o el texto que contiene el enlace, el texto
+donde se hará clic.
+● <a> puede ir dentro de un párrafo para un texto ancla específico.
+● Se puede colocar enlace tanto a texto como a imágenes.
+
+---------------------------------------------------------------------------------
+HTML - Imagenes
+
+Insertar una imagen en HTML es muy simple, simplemente debemos indicar que el elemento es una imagen
+y cuál es el archivo o donde esta ubicado para que sea mostrado en el navegador, veamos.
+
+Etiqueta <img/>
+
+Utilizaremos la etiqueta <img/> para insertar imágenes, a diferencia de otras etiquetas, <img/> no tiene una
+etiqueta de cierre, pero si atributos.
+
+Atributo src
+
+Para indicar la ubicación o dirección de la imagen, utilizaremos el atributo src, la imagen puede estar
+almacenada en la misma carpeta que el documento HTML o también podemos agregar la imagen desde una
+dirección URL, de la siguiente manera
+
+<img src="boca.jpg"/>
+
+----------------------------------------------------------------------------------------------

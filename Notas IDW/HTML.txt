@@ -1,0 +1,155 @@
+HTML - Estructura
+
+<html>
+...contenido...
+</html>
+
+-----------------------------------------------------------------------
+HTML - Estructura
+
+<html>
+<head>
+...elementos de la cabecera...
+</head>
+</html>
+
+-----------------------------------------------------------------------
+HTML - Estructura
+
+<html>
+   <head>
+        <title> Mi primer título </title>
+   </head>
+</html>
+
+----------------------------------------------------------------------
+HTML - Estructura
+
+<html>
+     <head>
+           <title> Mi primer título </title>
+    </head>
+    <body>
+            ...Cuerpo de la página, lo que será visible en el navegador...
+    </body>
+</html>
+
+Etiqueta body: Es el cuerpo de la página. Dentro de ella vamos a agregar todo el contenido que vamos a usar en la pagina web.
+---------------------------------------------------------------------
+HTML - Etiqueta
+● Etiqueta HTML <h1>: Encabezado o título principal.
+● Etiqueta HTML <h2>: Para elementos subtítulo.
+● Etiqueta HTML <p>: Para elementos de párrafo.
+● Etiqueta HTML <b>: Para hacer texto en negrita.
+● Etiqueta HTML <i>: Texto en cursiva.
+● Etiqueta HTML <ul>: Para listas sin ordenar
+● Etiqueta HTML <table>: para crear tablas.
+● Etiqueta HTML <form>: Para crear formularios.
+● Etiqueta HTML <a>: Para crear enlaces.
+● Etiqueta HTML <img>: Para insertar imágenes.
+
+--------------------------------------------------------------------
+HTML - Etiqueta
+
+Etiquetas de párrafo y encabezados HTML
+Las etiquetas que siempre indican texto y son:
+● <p> Indica que el elemento es un párrafo.
+● <h1> Señala que se trata de un título principal.
+● <h2>, <h3>, <h4>, <h5>, <h6>: indica niveles de encabezado,
+subtítulos.
+------------------------------------------------------------------
+HTML - Etiqueta
+<html>
+<head>
+<title> MI PRIMER TÍTULO </title>
+</head>
+ 
+<h1> Este es el encabezado o título visible </h1>
+<p> Este es el primer párrafo de texto </p>
+<p> Este es otro párrafo de texto</p>
+</body>
+</html>
+
+---------------------------------------------------------------------
+HTML - Etiqueta
+//Etiquetas que no tienen etiqueta de cierre: br y hr
+
+Etiqueta <br/>
+● <br/> indica un salto de línea, observa bien, no está mal escrito, es así como se
+escribe.
+● <br/> puede ir dentro de un párrafo, por ejemplo para hacer un salto de línea si es
+necesario.
+● <br/> no tiene etiqueta de cierre.
+
+Etiqueta <hr/>
+● <hr/> es una etiqueta que crea una línea horizontal o separador y también solo hay
+que digitar tal como aparece, para crear una línea horizontal.
+● <hr/> no tiene etiqueta de cierre.
+
+------------------------------------------------------------------------------
+HTML - Etiqueta
+
+Los comentarios en HTML
+Un comentario en HTML se indica de la siguiente manera:
+
+<!– Escriba aquí su comentario –>
+
+----------------------------------------------------------------------------
+//LISTAS NO ORDENADAS
+
+HTML - Etiqueta
+
+Listas no ordenadas <ul> en HTML
+Una lista no ordenada en HTML es aquella en la que los elementos
+no están enumerados.
+viñeta: un punto u otro tipo como veremos más adelante.
+
+Etiqueta <ul>
+Una etiqueta <ul> contiene a todas los elementos de la lista.
+
+Etiqueta <li>
+
+---------------------------------------------------------------------------
+HTML - Etiqueta
+
+<ul>
+      <li> primavera</li>
+      <li> verano </li>
+      <li> otoño </li>
+      <li> invierno </li>
+</ul>
+
+-----------------------------------------------------------------------------
+//LISTAS ORDENADAS
+
+HTML - Etiqueta
+
+Listas ordenadas en HTML <ol>
+
+Una lista ordenada en HTML es aquella en la que los elementos están
+ordenados
+
+Etiqueta <ol>
+Se utiliza la etiqueta html <ol> para crear listas ordenadas, entre la etiqueta de
+apertura y cierre irán los elementos de la lista dentro de una etiqueta <li>
+respectivamente.
+
+Etiqueta <li>.-
+En cualquier caso la etiqueta <li> sirve para indicar los elementos de la lista,
+
+--------------------------------------------------------------------------------------------------------
+HTML - Etiqueta
+Listas ordenadas en HTML <ol>
+
+<ol>
+      <li> lunes</li>
+      <li> martes </li>
+      <li> miércoles </li>
+      <li> jueves </li>
+      <li> viernes </ li>
+      <li> sábado </li>
+      <li> domingo</li>
+</ol>
+
+------------------------------------------------------------------------------------------------
+
